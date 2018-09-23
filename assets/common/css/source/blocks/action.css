@@ -1,0 +1,38 @@
+/*
+ *  ACTION BLOCK
+ */
+.cwt__action {
+    margin-top: -4.375rem;
+    padding-bottom: 4.375rem;
+}
+
+.cwt__action__container {
+    border-bottom: 1px solid #c5cad8;
+    height: 3.125rem;
+    margin-bottom: 3.125rem;
+    text-align: center;
+}
+
+.cwt__action__container-inner {
+    display: inline-block;
+    padding: 0rem 3.125rem;
+    background: #f2f5fa;
+    margin: 0 auto;
+}
+
+.cwt__action__button {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 16.875rem;
+    padding: 1.5625rem 1.875rem 1.25rem;
+    
+}
+
+.cwt__action__button small {
+    font-size: 1.125rem;
+    letter-spacing: 1.5px;
+}

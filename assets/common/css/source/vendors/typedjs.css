@@ -1,0 +1,46 @@
+/*
+ *  TYPED.JS
+ */
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+    display: inline-block;
+    position: relative;
+    left: 0.25rem;
+    margin-bottom: -0.5rem;
+    line-height: 2.5rem;
+    background: #090f25;
+    width: 0.3125rem;
+    height: 3.4375rem;
+}
+
+@media (max-width: 991px) {
+    .typed-cursor {
+        height: 2.5rem;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

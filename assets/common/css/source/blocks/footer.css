@@ -1,0 +1,51 @@
+/*
+ *  FOOTER BLOCK
+ */
+.cwt__footer {
+    background: #090f25;
+    color: #5c6689;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    font-size: 0.875rem;
+}
+
+.cwt__footer__title {
+    text-transform: uppercase;
+    margin-bottom: 1.875rem;
+    margin-top: 3.125rem;
+    font-size: 1.125rem;
+}
+
+.cwt__footer__title--light {
+    color: #c5cad8;
+}
+
+.cwt__footer__link {
+    color: #5c6689 !important;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 0.625rem;
+}
+
+.cwt__footer__link:hover {
+    text-decoration: none;
+}
+
+.cwt__footer__bottom {
+    margin-top: 2.5rem;
+    padding-top: 3.125rem;
+    border-top: 1px solid rgba(92, 102, 137, 0.4);
+}
+
+.cwt__footer__company {
+    padding-left: 3.75rem;
+    position: relative;
+    line-height: 0.6875rem;
+}
+
+.cwt__footer__company-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.875rem;
+}
